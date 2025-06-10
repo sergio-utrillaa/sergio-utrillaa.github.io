@@ -1859,47 +1859,47 @@ const preguntes = {
     }
 ],
 tema8: [
-    {
+    {//311
         "pregunta": "En quina posició se situa l'optimització dins del procés de processament de consultes que du a terme el gestor de consultes?",
         "opcions": ["Primera", "Segona", "Tercera", "Última"],
-        "correcta": 0
+        "correcta": 3
     },
     {
         "pregunta": "L'optimització de consultes tradueix d'un llenguatge declaratiu a un de procedural.",
         "opcions": ["Cert", "Fals"],
         "correcta": 0
     },
-    {
+    {//313
         "pregunta": "Quina NO és una de les tres fases de l'optimització de consultes?",
         "opcions": ["Sintàctica", "Semàntica", "Física", "Lògica"],
-        "correcta": 0
+        "correcta": 3
     },
     {
         "pregunta": "L'optimització escaneja les taules involucrades en la consulta per a calcular les estadístiques que necessita.",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
-    {
+    {//315
         "pregunta": "L'optimitzador de consultes sempre troba el millor pla d'accés.",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
     {
-        "pregunta": "L'optimitzador prioritza acabar ràpid la tasca d'optimización per davant de trobar el millor pla d'accés.",
+        "pregunta": "L'optimitzador prioritza acabar ràpid la tasca d'optimizació per davant de trobar el millor pla d'accés.",
         "opcions": ["Cert", "Fals"],
         "correcta": 0
     },
-    {
+    {//317
         "pregunta": "L'optimització semàntica canvia el llenguatge de representació de la consulta.",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
     {
         "pregunta": "L'optimització semàntica considera només la pròpia consulta i les lleis de la lògica.",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
-    {
+    {//319
         "pregunta": "L'optimització semàntica pot fer que el cost d'execució d'una consulta sigui zero.",
         "opcions": ["Cert", "Fals"],
         "correcta": 0
@@ -1909,7 +1909,7 @@ tema8: [
         "opcions": ["Cert", "Fals"],
         "correcta": 0
     },
-    {
+    {//321
         "pregunta": "L'optimització semàntica pot fer més llarga la clàusula WHERE.",
         "opcions": ["Cert", "Fals"],
         "correcta": 0
@@ -1919,7 +1919,7 @@ tema8: [
         "opcions": ["Cert", "Fals"],
         "correcta": 0
     },
-    {
+    {//323
         "pregunta": "L'optimització sintàctica resol totes les vistes no-materialitzades que hi hagi a la consulta.",
         "opcions": ["Cert", "Fals"],
         "correcta": 0
@@ -1929,47 +1929,47 @@ tema8: [
         "opcions": ["Cert", "Fals"],
         "correcta": 0
     },
-    {
+    {//325
         "pregunta": "Les dues regles heurístiques utilitzades a l'optimització sintàctica sempre milloren el cost de la consulta.",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
     {
         "pregunta": "Quina heurística utilitza l'optimització sintàctica?",
         "opcions": ["Baixar les projeccions i seleccions tant com sigui possible", "Reduir el nombre d'operacions tant com sigui possible", "Pujar les projeccions i seleccions tant com sigui possible", "Reduir el cost de la consulta tant com sigui possible"],
         "correcta": 0
     },
-    {
+    {//327
         "pregunta": "L'optimització sintàctica sempre redueix el nombre d'operacions a l'arbre sintàctic.",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
     {
         "pregunta": "L'optimització sintàctica mai deixa una projecció just a sobre d'una fulla de l'arbre sintàctic.",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
-    {
+    {//329
         "pregunta": "Després de l'optimització sintàctica poden quedar dos subgrafs iguals a l'arbre sintàctic.",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
     {
         "pregunta": "El resultat de l'optimització sintàctica sempre és un arbre.",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
-    {
+    {//331
         "pregunta": "L'optimització sintàctica mai elimina operacions de l'arbre sintàctic.",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
     {
         "pregunta": "Si una selecció té un predicat complex, sempre la podem dividir en dues seleccions consecutives.",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
-    {
+    {//333
         "pregunta": "La selecció sempre commuta (sense posar ni treure res) amb la join.",
         "opcions": ["Cert", "Fals"],
         "correcta": 0
@@ -1979,82 +1979,82 @@ tema8: [
         "opcions": ["Cert", "Fals"],
         "correcta": 0
     },
-    {
+    {//335
         "pregunta": "La selecció sempre commuta (sense posar ni treure res) amb la projecció.",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
     {
         "pregunta": "La projecció sempre commuta (sense posar ni treure res) amb la join.",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
-    {
+    {//337
         "pregunta": "La projecció sempre commuta (sense posar ni treure res) amb qualsevol operació de conjunts (és a dir, unió, intersecció i diferència).",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
     {
         "pregunta": "Quines propietats compleix la join respecte a ella mateixa?",
         "opcions": ["Commutativa", "Associativa", "Cap de les dues", "Totes dues"],
-        "correcta": 0
+        "correcta": 3
     },
-    {
+    {//339
         "pregunta": "Quin nom NO rep l'algorisme que segueix l'execution manager per obtenir el resultat d'una consulta?",
         "opcions": ["Pla d'accés de la consulta", "Pla d'execució de la consulta", "Arbre de procés de la consulta", "Arbre d'execució de la consulta"],
-        "correcta": 0
+        "correcta": 3
     },
     {
         "pregunta": "Què NO considera l'optimització física per a generar el pla d'execució d'una consulta?",
         "opcions": ["Les estructures físiques disponibles", "Els camins d'accés que permet el predicat de la consulta", "Els algorismes que té disponibles el SGBD", "Les propietats ACID"],
-        "correcta": 0
+        "correcta": 3
     },
-    {
+    {//341
         "pregunta": "Quina operació deixa de ser explícita en l'arbre de procés?",
         "opcions": ["Join", "Projecció", "Unió", "Selecció"],
-        "correcta": 0
+        "correcta": 1
     },
     {
         "pregunta": "L'arbre de procés mai té menys operacions que l'arbre sintàctic un cop optimitzat.",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
-    {
+    {//343
         "pregunta": "L'arbre de procés mai té més operacions que l'arbre sintàctic un cop optimitzat.",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
     {
         "pregunta": "Què NO genera alternatives en l'espai de cerca de la optimització basada en costos?",
         "opcions": ["Les estructures d'accés disponibles", "Els algorismes existents per cada operació", "L'ordre de les joins", "La utilització de la cache"],
-        "correcta": 0
+        "correcta": 3
     },
-    {
+    {//345
         "pregunta": "Quines propietats de la join utilitza l'optimització física per a generar possibles alternatives d'execució?",
         "opcions": ["Associativitat i transitivitat", "Commutativitat i transitivitat", "Commutativitat i associativitat", "Totes tres propietats"],
-        "correcta": 0
+        "correcta": 2
     },
     {
         "pregunta": "L'encarrilament (pipelining) és una tècnica d'execució de consultes que evita la materialització de resultats intermitjos.",
         "opcions": ["Cert", "Fals"],
         "correcta": 0
     },
-    {
+    {//347
         "pregunta": "L'encarrilament (pipelining) es pot fer servir només quan tenim un esquema en estrella.",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
     {
         "pregunta": "Quan fem encarrilament (pipelining), l'ordre de les joins és ...",
         "opcions": ["Decreixent (de més selectiva a menys selectiva)", "Creixent (de menys selectiva a més selectiva)", "Irrellevant", "El mateix que l'ordre dels atributs a la clau primària de la taula de fets"],
         "correcta": 0
     },
-    {
+    {//349
         "pregunta": "El cost d'una operació de l'arbre de procés és el cost de llegir l'entrada i d'executar la pròpia operació.",
         "opcions": ["Cert", "Fals"],
-        "correcta": 0
+        "correcta": 1
     },
-    {
+    {//350
         "pregunta": "El cost d'una consulta és la suma dels costos de totes les operacions del seu arbre de procés.",
         "opcions": ["Cert", "Fals"],
         "correcta": 0
