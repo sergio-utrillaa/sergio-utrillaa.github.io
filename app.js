@@ -2603,27 +2603,27 @@ tema11:[
     ],
 tema12:
 [
-        {
+        {//458
             "pregunta": "Pel que fa a l'aïllament, volem tenir només històries serials.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "El nivell d'aïllament read uncommitted només bloqueja escriptures.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//460
             "pregunta": "El nivell d'aïllament read committed manté tots els bloquejos fins al final de la transacció.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "El nivell d'aïllament repeatable read genera dos bloquejos per cada lectura.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//462
             "pregunta": "El nivell d'aïllament serializable sempre bloqueja tota la taula fins al final de la transacció.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2631,19 +2631,19 @@ tema12:
         {
             "pregunta": "Com més garanties d'aïllament tinguem, millor serà el rendiment del sistema.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//464
             "pregunta": "Quin dels següents conceptes NO afecta al temps d'execució de la transacció?",
             "opcions": ["Tipus de bloquejos", "Moment d'assignació del timestamp", "Nombre de bloquejos", "Moment d'alliberament dels bloquejos"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "Quina de les següents accions NO serveix per millorar el rendiment de les transaccions?",
             "opcions": ["Trossejar les transaccions", "Assignar el timestamp el més tard possible", "Relaxar el nivell d'aïllament", "Eliminar bloquejos innecessaris", "Configurar l'interval de detecció de deadlock adequat", "Evitar (o endarrerir) l'accés a grànuls molt demandats", "Utilitzar les sentències de DDL quan hi hagi pocs usuaris"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//466
             "pregunta": "El control de concurrència multi-versió fa que dues transaccions que s'executin concurrentment puguin llegir dades diferents.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2653,17 +2653,17 @@ tema12:
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//468
             "pregunta": "Amb control de concurrència multi-versió, l'usuari ha de decidir quina versió del grànul llegeix.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "Amb control de concurrència multi-versió, les operacions de lectura no bloquegen mai res.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//470
             "pregunta": "Amb control de concurrència multi-versió, només hi ha bloquejos entre escriptures.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2673,7 +2673,7 @@ tema12:
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//472
             "pregunta": "Amb control de concurrència multi-versió, tenim implícit una base de dades temporal amb temps de transacció.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2683,7 +2683,7 @@ tema12:
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//474
             "pregunta": "Fent vacuum, eliminem les versions obsoletes de les dades en el control de concurrència multi-versió.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2693,67 +2693,67 @@ tema12:
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//476
             "pregunta": "Amb un control de concurrència multi-versió basat en bloquejos, les transaccions read-only assignen un timestamp ...",
             "opcions": ["En acabar la transacció", "A l'inici de la transacció", "No n'assignen mai cap", "En intentar accedir un grànul bloquejat"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "Amb un control de concurrència multi-versió basat en bloquejos, les transaccions read-write assignen un timestamp ...",
             "opcions": ["En intentar accedir un grànul bloquejat", "En acabar la transacció", "A l'inici de la transacció", "No n'assignen mai cap", "Al fer la primera operació d'escriptura"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//478
             "pregunta": "Quina NO és una raó per a necessitar una reconstrucció?",
             "opcions": ["Incendi", "Fallada del disc", "Fallada elèctrica", "Totes les anteriors ho són"],
-            "correcta": 0
+            "correcta": 2
         },
         {
             "pregunta": "Quina de les quatre propietats ACID està relacionada principalment amb la restauració?",
             "opcions": ["Atomicitat", "Consistència", "Aïllament", "Durabilitat"],
             "correcta": 0
         },
-        {
+        {//480
             "pregunta": "Quina de les quatre propietats ACID està relacionada principalment amb la reconstrucció?",
             "opcions": ["Atomicitat", "Consistència", "Aïllament", "Durabilitat"],
-            "correcta": 0
+            "correcta": 3
         },
         {
             "pregunta": "Què fa el gestor de la cache quan rep una petició de Fetch?",
             "opcions": ["Llegeix de la memòria i escriu al disc", "Llegeix del disc i la memòria", "Llegeix del disc i escriu a la memòria", "Escriu tant al disc com a la memòria"],
-            "correcta": 0
+            "correcta": 2
         },
-        {
+        {//482
             "pregunta": "Què fa el gestor de la cache quan rep una petició de Flush?",
             "opcions": ["Escriu tant al disc com a la memòria", "Llegeix del disc i la memòria", "Llegeix de la memòria i escriu al disc", "Llegeix del disc i escriu a la memòria"],
-            "correcta": 0
+            "correcta": 2
         },
         {
             "pregunta": "Què NO es guarda al dietari?",
             "opcions": ["Tipus d'operació", "Pla d'accés de la consulta", "Punter a l'operació anterior de la transacció", "Valor vell del grànul modificat", "Identificador de l'objecte", "Punter a l'operació següent de la transacció", "Valor nou del grànul modificat"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//484
             "pregunta": "Quan NO es fa un flush dels buffers del SGBD?",
             "opcions": ["Durant un backup", "Quan el nombre de pàgines de memòria modificades supera un cert llindar", "Quan el dietari s'omple", "A intervals regulars", "Durant una operació de DDL"],
-            "correcta": 0
+            "correcta": 4
         },
         {
             "pregunta": "El Write Ahead Log Protocol estableix que abans de confirmar qualsevol operació de DML, aquesta s'ha d'escriure al dietari (log).",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//486
             "pregunta": "Com evita el SGBD que s'ompli el dietari (log)?",
             "opcions": ["Dedicant-li un disc de forma exclusiva", "Limitant el nombre d'escriptures al mínim indispensable", "Esborrant-ho i creant-ho de nou a intervals regulars", "Gestionant el fitxer com si fos cíclic"],
-            "correcta": 0
+            "correcta": 3
         },
         {
             "pregunta": "Si fem backups de forma regular, no ens cal el dietari (log) per a reconstruir la base de dades.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//488
             "pregunta": "Just quan acabem de fer un backup, podem esborrant el dietari (log).",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2761,9 +2761,9 @@ tema12:
         {
             "pregunta": "Si configurem de forma adequada el dietari (log), no ens cal fer backups.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//490
             "pregunta": "Mentre s'executa un backup, el rendiment del sistema empitjora.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2773,7 +2773,7 @@ tema12:
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//492
             "pregunta": "Endarrerir els flush tan com sigui possible millora el rendiment del sistema.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2781,9 +2781,9 @@ tema12:
         {
             "pregunta": "Quin NO és un problema de que les transaccions read-write siguin innecessàriament llargues?",
             "opcions": ["És més probable que el sistema falli durant la seva execució", "La pròpia transacció és probable que es bloquegi", "Altres transaccions han d'esperar massa", "En cas de fallida, la transacció trigarà molt a recuperar-se", "Totes les anteriors ho són"],
-            "correcta": 0
+            "correcta": 4
         },
-        {
+        {//494
             "pregunta": "Trossejar les transaccions read-write millora el rendiment del sistema.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2791,9 +2791,9 @@ tema12:
         {
             "pregunta": "El fet que trossejar una transacció afecti o no al seu aïllament depèn només d'ella mateixa i no de cap altra transacció que es pugui executar de forma concurrent.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//496
             "pregunta": "Les transaccions llargues són un problema tant pel control de concurrència, com per a la recuperació.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2801,9 +2801,9 @@ tema12:
         {
             "pregunta": "Si concatenem (chain) dues transaccions, no s'alliberen els bloquejos de la primera fins que acaba la segona.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//498
             "pregunta": "Si concatenem (chain) dues transaccions, no s'alliberen els recursos (p.e., memòria) de la primera i aquests es reutilitzen en la segona, que manté la mateixa configuració (p.e., nivell d'aïllament).",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2813,12 +2813,12 @@ tema12:
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//500
             "pregunta": "Si tenim prou memòria com per a contenir tota la base de dades, podem fer directament allà totes les operacions i no cal escriure mai al disc.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//501
             "pregunta": "Si tenim un sistema que només fa lectures, podem prescindir tant dels mecanismes de control de concurrència com dels de recuperació.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
