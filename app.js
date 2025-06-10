@@ -2395,27 +2395,27 @@ tema10:[
         }
     ]	,
 tema11:[
-        {
+        {//417
             "pregunta": "Quin NO és un dels tres espais d'un SGBD?",
             "opcions": ["Lògic", "Físic", "Conceptual", "Virtual"],
-            "correcta": 0
+            "correcta": 2
         },
         {
             "pregunta": "Què NO hi ha a l'espai lògic d'un SGBD?",
             "opcions": ["Files", "Vistes", "Columnes", "Taules"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//419
             "pregunta": "Què NO hi ha a l'espai virtual d'un SGBD?",
             "opcions": ["Pàgines", "Clusters", "Particions", "Índexs", "Vistes", "Taules", "Tablespaces"],
-            "correcta": 0
+            "correcta": 5
         },
         {
             "pregunta": "Què NO hi ha a l'espai físic d'un SGBD?",
             "opcions": ["Fitxers", "Índexs", "Blocks", "Extensions"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//421
             "pregunta": "Les extensions serveixen per a garantir que el sistema operatiu assigni espai físicament consecutiu al disc.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2425,7 +2425,7 @@ tema11:[
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//423
             "pregunta": "Els Tablespaces faciliten disposar d'espai il·limitat a la base de dades.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2433,9 +2433,9 @@ tema11:[
         {
             "pregunta": "Cal definir un Tablespace per a cada usuari del sistema.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//425
             "pregunta": "Cal definir un Tablespace per a cada patró d'accés diferent al sistema.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2445,37 +2445,37 @@ tema11:[
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//427
             "pregunta": "El fillfactor és el percentatge màxim que pot tenir mai ple un bloc de la taula.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "Reduir el fillfactor sempre fa que les taules ocupin més espai.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//429
             "pregunta": "Reduir el fillfactor fa que les modificacions de les dades sempre siguin més ràpides.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "El nombre de repeticions de cada valor és irrellevant per a la utilitat d'un índex tipus arbre.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//431
             "pregunta": "Un cop s'ha creat un índex tipus bitmap, es poden continuar fent insercions a la taula, però no de valors nous de l'atribut indexat.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "Fer una inserció a una taula que té un índex tipus bitmap no incrementa la grandària de l'índex, tret que el valor de l'atribut corresponent no existís abans a la taula.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//433
             "pregunta": "Fer una modificació (UPDATE) a una taula que té un índex tipus bitmap no incrementa la grandària de l'índex, tret que el nou valor assignat a l'atribut corresponent no existís abans a la taula.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2483,19 +2483,19 @@ tema11:[
         {
             "pregunta": "En el cas de l'índex bitmap, el factor de selecció indica el percentatge de blocs de la taula que caldrà accedir.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//435
             "pregunta": "L'índex tipus bitmap és especialment útil en atributs UNIQUE.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "Quin tipus d'índex és millor en cas de consultes que involucrin múltiples valors d'un atribut?",
             "opcions": ["Hash", "Bitmap", "Arbre", "Cluster"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//437
             "pregunta": "Quin tipus d'índex és millor en cas que l'atribut indexat tingui moltes repeticions?",
             "opcions": ["Bitmap", "Cluster", "Hash", "Arbre"],
             "correcta": 0
@@ -2503,59 +2503,59 @@ tema11:[
         {
             "pregunta": "L'índex tipus bitmap millora el temps de resposta d'una consulta quan el factor de selecció és inferior al 50%.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//439
             "pregunta": "L'índex tipus bitmap incrementa el grau de concurrència del sistema.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "L'índex tipus bitmap no es pot utilitzar si l'atribut indexat conté valors null.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//441
             "pregunta": "L'índex tipus bitmap facilita la comprovació d'unicitat en l'atribut corresponent.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "Quin tipus d'usuari s'encarrega del tuning de la base de dades?",
             "opcions": ["Dissenyador", "Programador d'aplicacions", "Administrador", "Tots els anteriors"],
-            "correcta": 0
+            "correcta": 3
         },
-        {
+        {//443
             "pregunta": "Què NO forma part de l'entrada del procés de millora del rendiment del sistema?",
             "opcions": ["Llista d'operacions de modificació, juntament amb les seves freqüències", "Espai de disc disponible", "Llista d'operacions de consulta, juntament amb les seves freqüències", "Llista de restriccions d'integritat, juntament amb les probabilitats de ser violades", "Objectiu de rendiment a assolir"],
-            "correcta": 0
+            "correcta": 3
         },
         {
             "pregunta": "Què NO forma part de la sortida del procés de millora del rendiment del sistema?",
             "opcions": ["Rescriptura de cada consulta (segons els criteris de l'optimització semàntica)", "Normalització/Desnormalització de les taules", "Conjunt de vistes materialitzades", "Conjunt d'índexs", "Particionament de les taules"],
             "correcta": 0
         },
-        {
+        {//445
             "pregunta": "Quina dada de les que no trobem al pla d'accés NO és rellevant per a fer tuning de l'execució de les consultes?",
             "opcions": ["Nombre d'abraçades mortals (deadlocks)", "Temps en les cues de bloquejos", "Grandària del dietari (log)", "Nombre de bloquejos", "Hits a la cache"],
-            "correcta": 0
+            "correcta": 2
         },
         {
             "pregunta": "El nombre d'índexs que podem crear a una base de dades és lineal respecte al nombre de taules i atributs existents.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//447
             "pregunta": "L'única limitació que tenim per a crear índexs és l'espai de disc disponible.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "Un índex que no sigui de tipus cluster mai empitjorarà l'estimació del temps d'execució d'una consulta.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//449
             "pregunta": "És millor no posar índexs a les taules petites.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2563,19 +2563,19 @@ tema11:[
         {
             "pregunta": "Pot ser que un índex no millori el rendiment de cap operació DML concreta, però tot i així sigui bo crear-ho des del punt de vista del rendiment del sistema.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//451
             "pregunta": "El predicat de les consultes és irrellevant per a triar el tipus d'índex d'una taula.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "L'ordre dels atributs d'un índex multiatribut afecta a la seva utilitat.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//453
             "pregunta": "Una taula pot tenir com a màxim un índex tipus cluster.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2583,9 +2583,9 @@ tema11:[
         {
             "pregunta": "Com més repeticions tingui un atribut, millor serà posar un índex tipus hash en comptes d'un arbre.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//455
             "pregunta": "Com més repeticions tingui un atribut, millor serà posar un índex tipus bitmap en comptes d'un arbre.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2595,10 +2595,10 @@ tema11:[
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//457
             "pregunta": "Quan utilitzem l'algorisme greedy, cal calcular el temps d'execució considerant també les estructures que no hi càpiguen, perquè podem guanyar l'espai necessari per elles eliminant una altra estructura que haguem triat amb anterioritat.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         }
     ],
 tema12:
