@@ -1770,7 +1770,7 @@ const preguntes = {
     {
         "pregunta": "|T| representa el nombre de ... de la taula T.",
         "opcions": ["Atributs", "Bytes", "Blocs", "Files"],
-        "correcta": 2
+        "correcta": 3
     },
     {//294
         "pregunta": "Quin és típicament l'ordre (normalment representat per la lletra \"d\") d'un índex tipus arbre?",
@@ -2061,7 +2061,7 @@ tema8: [
     }
 ],
 tema9: [
-        {
+        {//351
             "pregunta": "L'optimitzador calcula el cost de totes les alternatives d'execució que genera.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2069,69 +2069,69 @@ tema9: [
         {
             "pregunta": "El factor de selecció de qualsevol operació és el percentatge de files al resultat respecte a mínim de files que podem tenir.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//353
             "pregunta": "Un factor de selecció \"1\" és el més selectiu que pot haver.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "La cardinalitat màxima d'una join coincideix amb la del producte cartesià.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//355
             "pregunta": "El càlcul del factor de selecció de la UNION és el mateix que el de la UNION ALL.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "El càlcul del factor de selecció de la join és el mateix que el de la intersecció.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//357
             "pregunta": "Les cardinalitats dels resultats intermitjos es calculen top-down a l'arbre de procés.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "El SGBD manté sempre actualitzades les estadístiques de les taules.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//359
             "pregunta": "El SGBD típicament assumeix una distribució normal dels valors de cada atribut.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "El SGBD típicament assumeix la independència estadística de tots els atributs de les taules.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//361
             "pregunta": "El SGBD sempre calcula totes les estadístiques de la base de dades de cop.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "El SGBD pot calcular les estadístiques de la base de dades només a partir d'un mostreig.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//363
             "pregunta": "El factor de selecció d'un predicat mai pot ser \"0\".",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "El factor de selecció d'un predicat mai pot ser \"1\".",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//365
             "pregunta": "El factor de selecció d'una clàusula \"IN\" és exactament el mateix que el d'un predicat complex amb la disjunció de les igualtats del mateix atribut amb cadascun dels valors al conjunt de la \"IN\".",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2139,9 +2139,9 @@ tema9: [
         {
             "pregunta": "Què NO afecta al factor de selecció d'una join?",
             "opcions": ["Que un dels atributs sigui clau primària", "Que un dels atributs accepti valor nulls", "Que un dels atributs sigui clau forana", "Que un dels atributs tingui un check"],
-            "correcta": 0
+            "correcta": 3
         },
-        {
+        {//367
             "pregunta": "El factor de selecció de la θ-join amb \"<>\" és el mateix que el del producte cartesià.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2149,59 +2149,59 @@ tema9: [
         {
             "pregunta": "La longitud d'un registre és la suma de les longituds dels seus atributs.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//369
             "pregunta": "Estimem el nombre de registres a un bloc com la grandària del bloc dividit per la longitud del registre arrodonit per excés.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "Estimem el nombre de blocs d'una taula com la cardinalitat de la taula dividida pel nombre de registres per bloc arrodonit per excés.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//371
             "pregunta": "El primer pas per a processar una selecció d'un predicat complex és posar-ho en forma normal disjuntiva.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "Si després de posar el predicat lògic d'una selecció en forma normal conjuntiva una de les condicions dins d'un parèntesi no permet utilitzar cap índex, llavors no podem utilitzar-ne cap tampoc a les altres condicions dins del parèntesi.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//373
             "pregunta": "Si després de posar el predicat lògic d'una selecció en forma normal conjuntiva un dels parèntesi queda negat, simplement l'eliminem del procés.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "La resolució de predicats de selecció amb operacions de llistes de RID, fa que no haguem de fer mai cap comprovació sobre les dades.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//375
             "pregunta": "La resolució de predicats de selecció amb operacions de llistes de RID, fa que no haguem de fer mai un table scan.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "Els index tipus arbre serveixen per avaluar clàusules lògiques amb qualsevol tipus de comparació.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//377
             "pregunta": "Els index tipus hash serveixen per avaluar clàusules lògiques només amb comparacions per igualtat.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
         {
-            "pregunta": "Un bitmaps guarda un bit per cada fila de la taula.",
+            "pregunta": "Un bitmap guarda un bit per cada fila de la taula.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//379
             "pregunta": "Un bitmap guarda una llista de bits per cada valor diferent de la taula.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2211,27 +2211,27 @@ tema9: [
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//381
             "pregunta": "Els index tipus bitmaps serveixen per avaluar clàusules lògiques amb qualsevol tipus de comparació.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "Un índex tipus arbre multi-atribut no necessàriament utilitza més espai que si indexem només el primer dels seus atributs.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//383
             "pregunta": "Un índex tipus arbre multi-atribut permet resoldre qualsevol selecció amb un predicat lògic que involucri tots els atributs indexats.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "L'ordre dels atributs en un índex tipus arbre multi-atribut és irrellevant per a les consultes que es puguin fer amb ell.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//385
             "pregunta": "L'operació d'ordenació pot aparèixer en l'arbre de procés de consultes que NO tinguin ORDER BY.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2241,17 +2241,17 @@ tema9: [
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//387
             "pregunta": "Un índex tipus hash es pot utilitzar per ordenar les dades.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "Quin algorisme d'ordenació a memòria utilitza el External Merge Sort?",
             "opcions": ["Bubble Sort", "Quick Sort", "Cap", "Es irrellevant"],
-            "correcta": 0
+            "correcta": 3
         },
-        {
+        {//389
             "pregunta": "El External Merge Sort requereix d'una zona d'espai temporal per a realitzar l'ordenació, de l'ordre de la grandària de la pròpia taula.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2261,15 +2261,15 @@ tema9: [
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//391
             "pregunta": "L'operació de projecció sense eliminació de repetits no té cap cost associat quan la consulta té alguna altra operació.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//392
             "pregunta": "L'eliminació de repetits considera les mateixes alternatives d'algorismes que l'ordenació.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         }
     ],
 tema10:[
