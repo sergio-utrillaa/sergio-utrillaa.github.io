@@ -2273,7 +2273,7 @@ tema9: [
         }
     ],
 tema10:[
-        {
+        { //393
             "pregunta": "Una estructura cluster incrementa l'espai requerit per les taules que l'ocupen.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2283,17 +2283,17 @@ tema10:[
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//395
             "pregunta": "L'opció que dona el cost més baix per a fer una join es sempre tenir les dues taules en una estructura cluster.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "L'algorisme de Row Nested Loops és simètric.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//397
             "pregunta": "L'algorisme de Row Nested Loops requereix l'existència d'un índex a priori.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2303,47 +2303,47 @@ tema10:[
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//399
             "pregunta": "L'algorisme de Row Nested Loops només es pot utilitzar si la comparació de la join és la igualtat.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "El cost de l'algorisme de Row Nested Loops és sempre més baix si no hem d'accedir atributs de la taula interna que no siguin els del propi índex utilitzat per l'algorisme.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//401
             "pregunta": "L'algorisme de Row Nested Loops només permet utilitzar un índex tipus cluster si requerim atributs de la taula interna que no siguin els del propi índex.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "L'algorisme de Block Nested Loops sempre es pot utilitzar.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
-        {
+        {//403
             "pregunta": "L'algorisme de Block Nested Loops és simètric.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "L'algorisme de Block Nested Loops sempre té un cost més baix si posem la taula més gran al bucle extern.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//405
             "pregunta": "L'algorisme de Block Nested Loops requereix que una de les taules càpigui a memòria.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "L'algorisme de Hash-join requereix l'existència d'un índex tipus hash a priori.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//407
             "pregunta": "L'algorisme de Hash-join només es pot utilitzar si la comparació de la join és la igualtat.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2351,19 +2351,19 @@ tema10:[
         {
             "pregunta": "L'algorisme de Hash-join és simètric.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//409
             "pregunta": "L'algorisme de Hash-join requereix que una de les taules càpigui a memòria.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
         {
             "pregunta": "L'algorisme de Hash-join requereix dues passades si una de les taules no hi cap a memòria.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//411
             "pregunta": "Si alguna de les dues taules no hi cap a memòria, l'algorisme de Hash-join particiona les dues.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2371,9 +2371,9 @@ tema10:[
         {
             "pregunta": "L'algorisme de Sort-Match només es pot utilitzar si la comparació de la join és la igualtat.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//413
             "pregunta": "El cost de l'algorisme de Sort-Match depèn de la comparació de la join.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
@@ -2381,14 +2381,14 @@ tema10:[
         {
             "pregunta": "L'algorisme de Sort-Match requereix que alguna de les taules estigui ordenada a priori.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//415
             "pregunta": "L'algorisme de Sort-Match requereix l'existència d'un índex cluster a priori.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
         },
-        {
+        {//416
             "pregunta": "L'algorisme de Sort-Match deixa el resultat ordenat per l'atribut de join.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
